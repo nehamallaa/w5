@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.two-half-layout {
+  display: flex;
+}
+
+.column-one {
+  background: green;
+  color: white;
+  width: 50%;
+}
+
+.column-two {
+  width: 50%;
+}
+
+.column-two figure img {
+  width: 100%;
+}
